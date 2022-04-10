@@ -17,5 +17,5 @@ $ yarn install
 $ yarn webpack
 ```
 ```bash
-$ k6 run dist/get-200-status-test.js
+$ k6 run dist/bitmap-v1-const-test.js
 ```
