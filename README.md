@@ -8,14 +8,19 @@
 * **Install dependencies**
 
 ```bash
-$ yarn install
+yarn install
 ```
 
 ## Running the test
 
 ```bash
-$ yarn webpack
+yarn webpack
 ```
+* Bitmap
 ```bash
-$ k6 run dist/bitmap-v1-const-test.js
+GOMAXPROCS=2 k6 run dist/bitmap-v1-different-test.ts
+```
+* Map
+```bash
+GOMAXPROCS=2 k6 run dist/map-v1-different-test.ts
 ```

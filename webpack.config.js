@@ -33,7 +33,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     // Copy assets to the destination folder
-    // see `src/bitmap-v1-const-test.ts` for an test example using an asset
+    // see `src/roaring32-v1-const-test.ts` for an test example using an asset
     new CopyPlugin({
       patterns: [{ 
         from: path.resolve(__dirname, 'assets'), 
